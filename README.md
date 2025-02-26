@@ -2,7 +2,7 @@
 
 CyberBrain_Model is an advanced AI project designed for fine-tuning the model `unsloth/DeepSeek-R1-Distill-Qwen-14B` specifically for cyber security tasks. This repository provides tools and scripts for training and fine-tuning large language models efficiently using minimal hardware resources. The goal is to adapt the model for ethical cyber security applications, making it efficient even on devices with limited computational power, whether you have a low-end CPU or a GPU with limited VRAM.
 
-In this project, we use technical content extracted from various cyber security sources as our primary training data. The raw text is processed into instruction-response pairs tailored for fine-tuning the model on cyber security scenarios. You can access the training data [here](./Create-DataSet/source/orig).
+In this project, we use technical content extracted from various cyber security sources as our primary training data. The raw text is processed into instruction-response pairs tailored for fine-tuning the model on cyber security scenarios. You can access the training data [here](./DataSet).
 
 ![AI Training](assest/ai.jpg)
 
