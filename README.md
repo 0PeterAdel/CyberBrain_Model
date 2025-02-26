@@ -1,5 +1,9 @@
-# CyberBrain_Model
 
+
+# CyberBrain_Model
+<p align="center">
+   <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=244b6c&text=Cyper%20Brain&section=header&textBg=false&animation=twinkling&fontColor=a5241b&strokeWidth=0&rotate=0&reversal=false" style="width:100%;">
+</p>
 CyberBrain_Model is an advanced AI project designed for fine-tuning the model `unsloth/DeepSeek-R1-Distill-Qwen-14B` specifically for cyber security tasks. This repository provides tools and scripts for training and fine-tuning large language models efficiently using minimal hardware resources. The goal is to adapt the model for ethical cyber security applications, making it efficient even on devices with limited computational power, whether you have a low-end CPU or a GPU with limited VRAM.
 
 In this project, we use technical content extracted from various cyber security sources as our primary training data. The raw text is processed into instruction-response pairs tailored for fine-tuning the model on cyber security scenarios. You can access the training data [here](./DataSet).
@@ -67,20 +71,21 @@ Refer to the following files for more details:
 
 ---
 
-This repository is designed to be modular and flexible, making it easy to customize for your training needs on cyber security tasks. Feel free to modify scripts and settings to suit your project requirements.
-
 ## 🚀 Quick Start on Google Colab
 
 To quickly run CyberBrain_Model on Google Colab, follow these steps:
 
-1. **Clone the Repository**  
-   Open a new Colab notebook and run:
+1. **Open a New Colab Notebook**  
+   Click [here](https://colab.new/) to open a new Colab notebook in your browser.
+
+2. **Clone the Repository**  
+   In your Colab notebook, run:
    ```bash
    !git clone https://github.com/YourUsername/CyberBrain_Model.git
    %cd CyberBrain_Model
    ```
 
-2. **Install Dependencies**  
+3. **Install Dependencies**  
    Install the required packages by running:
    ```bash
    !pip install --upgrade pip
@@ -89,7 +94,7 @@ To quickly run CyberBrain_Model on Google Colab, follow these steps:
    !pip install torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
    ```
 
-3. **Open and Run `main.ipynb`**  
+4. **Open and Run `main.ipynb`**  
    Open the `main.ipynb` notebook in Colab. This notebook provides a step-by-step guide to:
    - Load the dataset from the `DataSet` directory.
    - Load the model using `Model_Loading_with_Unsloth.py`.
@@ -118,9 +123,8 @@ If you find this project useful or interesting, please give it a star! Your supp
 
 ---
 
-🤍 Thank you for checking out **CyberBrain**! Happy training!
+🤍 Thank you for checking out **CyberBrain_Model**! Happy training!
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=65&section=footer"/>
 </p>
-```
