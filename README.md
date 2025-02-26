@@ -53,44 +53,6 @@ pip install torch==2.5.1+cu118 --index-url https://download.pytorch.org/whl/cu11
 pip install torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 
-## ⬆️ Pushing to GitHub from Colab
-
-If you are working on Colab and want to push your changes to GitHub, follow these steps:
-
-1. **Configure Git with your user details:**
-
-   ```bash
-   !git config --global user.email "youremail@example.com"
-   !git config --global user.name "YourUsername"
-   ```
-
-2. **Clone your GitHub repository into Colab (if not already cloned):**
-
-   ```bash
-   !git clone https://github.com/YourUsername/CyberBrain_Model.git
-   %cd CyberBrain_Model
-   ```
-
-3. **Add all files to Git:**
-
-   ```bash
-   !git add .
-   ```
-
-4. **Commit the changes with a descriptive message:**
-
-   ```bash
-   !git commit -m "Initial commit of CyberBrain_Model project with all necessary files"
-   ```
-
-5. **Push the changes to GitHub:**
-
-   ```bash
-   !git push
-   ```
-
-   You may be prompted to enter your GitHub credentials or token. If you are using a token, set it as instructed by GitHub.
-
 ## 🤖 Running the Project
 
 - **Model Loading:** Run `Model_Loading_with_Unsloth.py` to load the model.
@@ -107,3 +69,58 @@ Refer to the following files for more details:
 
 This repository is designed to be modular and flexible, making it easy to customize for your training needs on cyber security tasks. Feel free to modify scripts and settings to suit your project requirements.
 
+## 🚀 Quick Start on Google Colab
+
+To quickly run CyberBrain_Model on Google Colab, follow these steps:
+
+1. **Clone the Repository**  
+   Open a new Colab notebook and run:
+   ```bash
+   !git clone https://github.com/YourUsername/CyberBrain_Model.git
+   %cd CyberBrain_Model
+   ```
+
+2. **Install Dependencies**  
+   Install the required packages by running:
+   ```bash
+   !pip install --upgrade pip
+   !pip install -r requirements.txt
+   !pip install torch==2.5.1+cu118 --index-url https://download.pytorch.org/whl/cu118
+   !pip install torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+   ```
+
+3. **Open and Run `main.ipynb`**  
+   Open the `main.ipynb` notebook in Colab. This notebook provides a step-by-step guide to:
+   - Load the dataset from the `DataSet` directory.
+   - Load the model using `Model_Loading_with_Unsloth.py`.
+   - Configure training arguments via `Configure_Training_Arguments.py`.
+   - Start training using `Train_Start.py`.
+   - Evaluate the model and monitor training progress.
+
+---
+
+## License
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or contributions, feel free to open an issue or contact us directly through GitHub.
+
+- Portfolio: [peteradel.netlify.app](https://peteradel.netlify.app)
+- LinkedIn: [linkedin.com/in/1peteradel](https://linkedin.com/in/1peteradel)
+
+## ⭐ Give a Star
+
+If you find this project useful or interesting, please give it a star! Your support helps improve the project and motivates further development.
+
+![AI Training](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXNhdWQzZWM0NzB6ZzRxcHZvdmxmMHJ3OWIwZ3RnZDY1dGJjZ3MxaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H1eVHxFk781UxUNMul/giphy.gif)
+
+---
+
+🤍 Thank you for checking out **CyberBrain**! Happy training!
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=65&section=footer"/>
+</p>
+```
