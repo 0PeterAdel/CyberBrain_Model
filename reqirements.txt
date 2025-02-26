@@ -1,0 +1,8 @@
+unsloth 
+transformers 
+datasets 
+bitsandbytes
+accelerate
+torch==2.5.1+cu118
+torchvision
+torchaudio
